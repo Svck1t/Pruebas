@@ -487,6 +487,20 @@ table.data-table tbody tr:hover { background: #f5f8fc; }
   align-self: flex-start;
 }
 
+.row-override { background: #eaf2fd; }
+
+.nivel-input {
+  width: 70px;
+  padding: 5px 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 13px;
+  text-align: right;
+  font-family: inherit;
+}
+
+.nivel-input:focus { border-color: var(--accent-blue); outline: none; }
+
 .badge {
   display: inline-block;
   padding: 3px 10px;
